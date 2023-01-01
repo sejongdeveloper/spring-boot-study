@@ -13,7 +13,7 @@ public class Application {
         springApplication.run(args);
     }
 
-    @Bean
+//    @Bean
     public Holoman holoman() {
         Holoman holoman = new Holoman();
         holoman.setName("whiteship");
